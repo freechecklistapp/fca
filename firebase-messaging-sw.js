@@ -5,13 +5,13 @@ import { getMessaging } from "firebase/messaging/sw";
 // your app's Firebase config object.
 // https://firebase.google.com/docs/web/setup#config-object
 const firebaseApp = initializeApp({
-  apiKey: "AIzaSyCFHQ1K4ramHIZm3YO0amxkSUdaj-BCWdM",
-  authDomain: "fca2024-c3438.firebaseapp.com",
-  projectId: "fca2024-c3438",
-  storageBucket: "fca2024-c3438.appspot.com",
-  messagingSenderId: "968073024606",
-  appId: "1:968073024606:web:d78c6bfeadb6a5cab8d0cf",
-  measurementId: "G-DJMWE65CZF",
+  apiKey: "AIzaSyDjR8b_DUOKhvd9CP2ymeFdJ2k_EYD0ua0",
+    authDomain: "free-checklist-app.firebaseapp.com",
+    projectId: "free-checklist-app",
+    storageBucket: "free-checklist-app.appspot.com",
+    messagingSenderId: "43846520306",
+    appId: "1:43846520306:web:ecca6466a9573f4145ef6b",
+    measurementId: "G-2M1TMN1DDH",
 });
 
 // Retrieve an instance of Firebase Messaging so that it can handle background
