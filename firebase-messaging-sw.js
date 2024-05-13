@@ -17,4 +17,7 @@ firebase.initializeApp({
   measurementId: "G-2M1TMN1DDH",
 });
 
+// Retrieve an instance of Firebase Messaging so that it can handle background
+// messages.
+const messaging = firebase.messaging();
   
